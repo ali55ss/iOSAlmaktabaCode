@@ -1,0 +1,6 @@
+framework module TODocumentPickerViewController {
+  umbrella header "TODocumentPickerViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

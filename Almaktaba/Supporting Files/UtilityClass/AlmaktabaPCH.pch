@@ -1,0 +1,84 @@
+//
+//  AlmaktabaPCH.pch
+//  Almaktaba
+//
+//  Created by TechnoMac-11 on 08/02/18.
+//  Copyright © 2018 TechnoMac-11. All rights reserved.
+//
+
+#ifndef AlmaktabaPCH_pch
+#define AlmaktabaPCH_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <Foundation/NSObjCRuntime.h>
+#import "AppDelegate.h"
+
+#import "AppMacro.h"
+#import "StaticStrings.h"
+
+#import "Global.h"
+#import "Font.h"
+#import "CameraControl.h"
+
+#import "RESideMenu.h"
+
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+
+#import "LoginVC.h"
+
+#import "SharedClass.h"
+#import "YBHud.h"
+#import "AppMacro.h"
+//#import "SVProgressHUD.h"
+#import "UIImage+PDF.h"
+
+#import "SIAlertView.h"
+#import "UIView+Frame.h"
+
+#import "RMMapper.h"
+#import "WebServicesClass.h"
+#import "QueryModel.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#import <Photos/Photos.h>
+//#import "ProgressHUD.h"
+
+#import <AVFoundation/AVFoundation.h>
+#import <AVKit/AVKit.h>
+
+#import <TODocumentPickerViewController/TODocumentPickerViewController.h>
+#import <TODocumentPickerViewController/TODocumentPickerLocalDiskDataSource.h>
+
+#import <FCFileManager/FCFileManager.h>
+#import "NSDate+NVTimeAgo.h"
+#import "NDHTMLtoPDF.h"
+
+#import "LocalizeHelper.h"
+
+#import "Toast.h"
+
+#import <GoogleMobileAds/GoogleMobileAds.h>
+
+#endif
+
+#ifdef __cplusplus
+#include "opencv2/opencv.hpp"
+//// include other opencv2 headers if needed.
+//#import "MMOpenCVHelper.h"
+#endif
+
+
+
+
+
+//#import <opencv2/core.hpp>
+
+#endif /* AlmaktabaPCH_pch */

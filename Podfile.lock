@@ -1,0 +1,115 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Crashlytics (3.10.7):
+    - Fabric (~> 1.7.11)
+  - Fabric (1.7.11)
+  - FBSDKCoreKit (4.35.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.35.0):
+    - FBSDKCoreKit
+  - FCFileManager (1.0.20)
+  - GMImagePicker (0.0.2)
+  - Google-Mobile-Ads-SDK (7.32.0)
+  - GoogleSignIn (4.2.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.0):
+    - GTMSessionFetcher/Full (= 1.2.0)
+  - GTMSessionFetcher/Core (1.2.0)
+  - GTMSessionFetcher/Full (1.2.0):
+    - GTMSessionFetcher/Core (= 1.2.0)
+  - IQKeyboardManager (6.1.1)
+  - LARSAdController (3.1.0):
+    - LARSAdController/Core (= 3.1.0)
+    - LARSAdController/GoogleAds (= 3.1.0)
+    - LARSAdController/iAds (= 3.1.0)
+  - LARSAdController/Core (3.1.0)
+  - LARSAdController/GoogleAds (3.1.0):
+    - Google-Mobile-Ads-SDK (~> 7.2)
+    - LARSAdController/Core
+  - LARSAdController/iAds (3.1.0):
+    - LARSAdController/Core
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - Toast (4.0.0)
+  - TODocumentPickerViewController (0.2.0):
+    - TOSearchBar
+  - TOSearchBar (1.0.3)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FCFileManager
+  - GMImagePicker (~> 0.0.2)
+  - Google-Mobile-Ads-SDK
+  - GoogleSignIn
+  - IQKeyboardManager
+  - LARSAdController (~> 3.0)
+  - SDWebImage
+  - Toast (~> 4.0.0)
+  - TODocumentPickerViewController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - Crashlytics
+    - Fabric
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FCFileManager
+    - GMImagePicker
+    - Google-Mobile-Ads-SDK
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - IQKeyboardManager
+    - LARSAdController
+    - SDWebImage
+    - Toast
+    - TODocumentPickerViewController
+    - TOSearchBar
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Crashlytics: ccaac42660eb9351b9960c0d66106b0bcf99f4fa
+  Fabric: f233c9492b3bbc1f04e3882986740f7988a58edb
+  FBSDKCoreKit: 1a5b2e3ceb5ca827a53c54aa5f4a3480efff80d2
+  FBSDKLoginKit: 00a3d65d1226852f9d76dcddff01981e5e6d9c38
+  FCFileManager: e0f73316e6aa2eb04d2ff4caa75fe7df1ae44270
+  GMImagePicker: 6438a6764d6280b1dbf19b59140313f5a73daeeb
+  Google-Mobile-Ads-SDK: 2aca87e46e860f1e1fc0fdc1201dd9caa4be9ba6
+  GoogleSignIn: 591e46382014e591269f862ba6e7bc0fbd793532
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GTMOAuth2: e8b6512c896235149df975c41d9a36c868ab7fba
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  LARSAdController: 9aec796623e31948015b832e0d160a28f7284b57
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TODocumentPickerViewController: 9deaaf8f431abf11f45e97d769edda43eaa33efe
+  TOSearchBar: ee22b7ade729521b6ace523cea0ce97d23ab3cd9
+
+PODFILE CHECKSUM: a353c30ed2e620f7236433eebcb72666440e86ee
+
+COCOAPODS: 1.5.3
